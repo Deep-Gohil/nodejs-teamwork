@@ -1,6 +1,1 @@
-To clone the repository :-
-  Run This Command:
-      git clone "Deep's Repo lik"
-  the link you got from deep's repository 
 
-After you cloned the repository Make A new branch like navbar,footer,login,signup.ect 
