@@ -1,11 +1,18 @@
 * {
   text-decoration: none;
+  background-color: #f8f9fa;
 }
 .m-left-10 {
-    margin-left: 50px;
+  margin-left: 50px;
 }
-.m-8{
-    margin: 6px;
+.m-6 {
+  margin: 6px;
+}
+.m-3 {
+    margin: 3px;
+}
+.p-t-5{
+    padding-top: 5px;
 }
 .navbar {
   padding-right: 15px;
@@ -27,6 +34,21 @@ li a {
   margin-right: 25px;
   transition: all ease 0.5s;
 }
+.dropDown {
+  position: relative;
+}
+.dropDown-menu {
+  color: #717171;
+  font-size: 16px;
+  font-family: "Lato";
+  position: absolute;
+  display: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.dropDown:hover .dropDown-menu {
+  display: block;
+}
 ._h :hover {
-    color: #79c0de;
+  color: #79c0de;
 }
