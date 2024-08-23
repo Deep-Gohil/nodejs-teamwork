@@ -4,3 +4,6 @@ To clone the repository :-
       The link you got from deep's repository 
 
 After you cloned the repository Make A new branch like navbar,footer,login,signup.ect 
+
+website refrences
+https://themewagon.github.io/MiniStore/
