@@ -26,7 +26,9 @@
 }
 body{
   background-color: #969EB2;
+  cursor: url("/view/css/images/cursor.svg"), auto;
 }
+
 /* loader */
 .loader-parent {
   background-color: #151f19;
@@ -117,7 +119,7 @@ body{
 .button{
   display: block;
   padding: 20px 40px;
-  font-size: 15px;
+  font-size: 1.3vw;
   word-spacing: 5px;
   font-weight: 700;
   background-color: #45f882;
@@ -134,11 +136,16 @@ body{
 /* line */
 .parentLine{
   display: flex;
+  margin-top: 20px ;
 }
 .line1{
   height: 4px;
   width: 30vw;
   background-color: #FFBE18;
+  transform: rotate(-5deg);
+  margin-top: 12.5px;
+  z-index: 10;
+  margin-bottom: -25px;
 }
 .line2{
   height: 4px;
@@ -189,12 +196,12 @@ body{
 
 }
 .innerParent h1{
-  font-size: 1.2rem;
+  font-size: 1.8vw;
   color: #45f882;
   font-weight: 500;
 }
 .innerParent h2{
-  font-size: 4rem;
+  font-size: 4.7vw;
   color: white;
   font-weight: 700;
 }
@@ -260,3 +267,17 @@ body{
   background-color: #45f882;
   clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%, 0 1%);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
