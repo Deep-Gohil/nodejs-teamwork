@@ -2,13 +2,12 @@
   --bs-dark-rgb: 33, 37, 41;
 }
 * {
-  text-decoration: none;
   font-family: "Lato";
 }
 .m-left-10 {
   margin-left: 50px;
 }
-.p-98{
+.p-98 {
   padding: 98px 0;
 }
 .m-6 {
@@ -17,16 +16,78 @@
 .m-3 {
   margin: 3px;
 }
-.m-left-10{
+.m-left-10 {
   margin-left: 20px;
 }
 .p-t-5 {
   padding-top: 5px;
 }
+.col-1 {
+  width: 8.3333%;
+  padding: 15px;
+}
+
+.col-2 {
+  width: 16.6666%;
+  padding: 15px;
+}
+
+.col-3 {
+  width: 25%;
+  padding: 15px;
+}
+
+.col-4 {
+  width: 33.3333%;
+  padding: 15px;
+}
+
+.col-5 {
+  width: 41.6666%;
+  padding: 15px;
+}
+
+.col-6 {
+  width: 50%;
+  padding: 15px;
+}
+
+.col-7 {
+  width: 58.3333%;
+  padding: 15px;
+}
+
+.col-8 {
+  width: 66.6666%;
+  padding: 15px;
+}
+
+.col-9 {
+  width: 75%;
+  padding: 15px;
+}
+
+.col-10 {
+  width: 83.3333%;
+  padding: 15px;
+}
+
+.col-11 {
+  width: 91.6666%;
+  padding: 15px;
+}
+
+.col-12 {
+  width: 100%;
+  padding: 15px;
+}
 .navbar {
   padding-right: 15px;
   padding-left: 15px;
   margin-bottom: 1rem;
+}
+.navbar a {
+  text-decoration: none;
 }
 .uppercase {
   text-transform: uppercase;
@@ -37,6 +98,9 @@
 .size {
   font-size: 72px;
 }
+.lower-size {
+  font-size: 32px;
+}
 .navdiv {
   display: flex;
   align-items: center;
@@ -46,13 +110,13 @@
   display: flex;
   flex-wrap: wrap;
 }
-.align-center{
+.align-center {
   align-items: center;
 }
-.justify-between{
+.justify-between {
   justify-content: space-between;
 }
-.justify-center{
+.justify-center {
   justify-content: center;
 }
 li {
@@ -64,20 +128,6 @@ li a {
   font-size: 14px;
   margin-right: 25px;
   transition: all ease 0.5s;
-}
-.dropDown {
-  position: relative;
-}
-.dropDown-menu {
-  color: #717171;
-  font-size: 16px;
-  position: absolute;
-  display: none;
-  border-radius: 5px;
-  padding: 10px;
-}
-.dropDown:hover .dropDown-menu {
-  display: block;
 }
 ._h :hover {
   color: #79c0de;
@@ -105,23 +155,27 @@ li a {
   outline: none;
   border: none;
 }
-.ser{
+.ser {
   padding: 40px;
   margin: 0 10px;
 }
-.ser-icon{
+.ser-icon {
   padding-top: 3px;
   padding: 3px 10px;
   font-size: 25px;
   color: #79c0de;
 }
-.text h3{
+.text h3 {
   font-size: 21px;
   font-weight: 400;
   padding-bottom: 8px;
   margin: 0;
 }
-.text p{
+.text p {
   margin: 0;
   color: #717171;
+}
+.title a {
+  font-size: 15px;
+  color: rgba(var(--bs-dark-rgb));
 }
