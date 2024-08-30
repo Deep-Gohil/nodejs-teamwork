@@ -116,7 +116,7 @@ body{
 /* Loader Complited */
 .button{
   display: block;
-  padding: 15px 40px;
+  padding: 20px 40px;
   font-size: 15px;
   word-spacing: 5px;
   font-weight: 700;
@@ -144,4 +144,119 @@ body{
   height: 4px;
   width: 100vw;
   background-color: #45f882;
+}
+
+/* Section One */
+.sectionOne {
+  position: relative;
+  width: 100%;
+  height: 150vh;
+  background-color: #000; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionOne::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://wordpress.themeholy.com/bame/wp-content/uploads/2023/12/hero-bg1-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.1;
+  z-index: 1;
+}
+
+.sectionOne > * {
+  position: relative;
+  z-index: 2;
+}
+.innerParent{
+  height: 400px;
+  width: 800px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  top: -100px;
+
+}
+.innerParent h1{
+  font-size: 1.2rem;
+  color: #45f882;
+  font-weight: 500;
+}
+.innerParent h2{
+  font-size: 4rem;
+  color: white;
+  font-weight: 700;
+}
+.innerParent h2 span{
+  color: #45f882;
+}
+.buttons{
+  display: flex;
+  gap: 25px;
+}
+.btn2{
+  background-color: #FFBE18;
+}
+.btn2:hover {
+  background-color: #45f882;
+  clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%, 0 1%);
+}
+.secondSection{
+  position: relative;
+  top: -200px;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #151f19;
+  align-items: center;
+}
+.innerParentSecTwo{
+  height: 350px;
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.innerParentSecTwo img{
+  width: 20vw;
+}
+.innerParentSecTwo div{
+  height: 250px;
+  width: 45vw;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 20px;
+}
+.innerParentSecTwo div h1{
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+.innerParentSecTwo div p{
+  font-size: 1rem;
+  font-weight: 500;
+}
+.BTNSEC2{
+  background-color: #ffffff;
+  font-size: 1rem;
+  font-weight: 800;
+}
+.BTNSEC2:hover {
+  background-color: #45f882;
+  clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%, 0 1%);
 }
