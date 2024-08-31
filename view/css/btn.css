@@ -1,0 +1,57 @@
+.th-btn {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    text-align: center;
+    background-color: #45f882;
+    color: #ffffff;
+    font-family: 'Your Title Font'; 
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 20px 30px;
+    min-width: 200px;
+    border-radius: 0;
+    justify-content: center;
+    clip-path: polygon(15px 0%, calc(100% - 15px) 0%, 100% 50%, calc(100% - 15px) 100%, 15px 100%, 0% 50%);
+    transition: 0.2s;
+}
+.th-btn:before,
+.th-btn:after {
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    z-index: -1;
+    transition: all 0.4s ease-out;
+    top: 5px;
+    left: 5px;
+    width: 16px;
+    height: calc(100% - 10px);
+    border-radius: 0;
+    transition: clip-path 0.2s ease;
+    clip-path: polygon(85% 0, 100% 0, 15% 50%, 100% 100%, 85% 100%, 0% 50%);
+}
+.th-btn:after {
+    right: 5px;
+    left: auto;
+    transform: rotate(180deg);
+}
+.th-btn i {
+    transition: 0.4s all;
+}
+.th-btn:hover,
+.th-btn.active {
+    background: #ffffff;
+    clip-path: polygon(0px 0%, 100% 0%, 100% 50%, 100% 100%, 0 100%, 0% 50%);
+    color: #45f8f2;
+}
+.th-btn:hover:before,
+.th-btn.active:before,
+.th-btn:hover:after,
+.th-btn.active:after {
+    clip-path: polygon(2px 60%, 2px calc(100% - 2px), 100% calc(100% - 0px), 100% 100%, 0 100%, 0 100%);
+}
