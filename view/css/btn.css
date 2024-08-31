@@ -1,4 +1,5 @@
 .th-btn {
+    gap: 10px;
     position: relative;
     z-index: 2;
     overflow: hidden;
@@ -8,9 +9,10 @@
     border: none;
     text-align: center;
     background-color: #45f882;
-    color: #ffffff;
+    color: black;
     font-family: 'Your Title Font'; 
-    font-size: 16px;
+    font-size: 1.3vw;
+    text-decoration: none;
     font-weight: 700;
     line-height: 1;
     padding: 20px 30px;
@@ -47,7 +49,7 @@
 .th-btn.active {
     background: #ffffff;
     clip-path: polygon(0px 0%, 100% 0%, 100% 50%, 100% 100%, 0 100%, 0% 50%);
-    color: #45f8f2;
+    /* color: #45f8f2; */
 }
 .th-btn:hover:before,
 .th-btn.active:before,

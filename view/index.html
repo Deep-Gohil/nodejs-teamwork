@@ -1,70 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bame</title>
-    <link rel="stylesheet" href="/view/css/style.css" />
-    <link rel="stylesheet" href="/view/css/fonts.css" />
-    <link rel="stylesheet" href="/view/css/btn.css">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    />
-  </head>
 
-  <body>
-    <!-- Button -->
-    <!-- <button class="button">EXPLORE MORE <i class="fa-solid fa-arrow-right"></i></button> -->
-    <div class="loader-parent">
-      <span class="loader"></span>
-    </div>
-    <div class="parentMain">
-      <div id="navbar"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bame</title>
+  <link rel="stylesheet" href="/view/css/style.css" />
+  <link rel="stylesheet" href="/view/css/fonts.css" />
+  <link rel="stylesheet" href="/view/css/btn.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <style>
+    .browseGames{
+      background-color: #FFBE18;
+    }
+    .browseGames:hover{
+      background-color: #45f882;
+    }
+  </style>
+</head>
 
-      <!-- First Section After Navbar -->
-      <!-- <div class="parentLine">
-      <div class="line1"></div>
-      <div class="line2"></div>
-    </div> -->
-      <div class="sectionOne">
-        <div class="innerParent">
-          <h1># World Class ESports & Gaming Site</h1>
-          <h2>SHAPING THE FUTURE OF <br /><span>ESPORTS</span></h2>
-          <div class="buttons">
-            <a href="/contact" class="th-btn th_btn"
-              ><i class="fa-brands fa-twitch me-2"></i>Live Streaming</a
-            >
-            <a href="/contact" class="th-btn th_btn"
-            ><i class="fa-brands fa-twitch me-2"></i>Live Streaming</a
-          >
-          </div>
+<body>
+  <!-- <div class="loader-parent">
+    <span class="loader"></span>
+  </div> -->
+  <div class="parentMain">
+    <div id="navbar">
+      <nav>
+        <div class="box1">
+          <img src="https://wordpress.themeholy.com/bame/wp-content/uploads/2023/12/logo.svg" alt="">
         </div>
-      </div>
-      <!-- secondSection -->
-      <div class="secondSection">
-        <div class="innerParentSecTwo">
-          <img src="/view/css/images/hero-1-1.png" alt="" />
-          <div>
-            <h1>Join The Big Tournaments</h1>
-            <p>
-              Beyond esports Tournaments, include a broader calendar Of Gaming
-              <br />
-              events, conferences, and conventions. and connect with each other.
-            </p>
-            <!-- <div class="button btnsec2">JOIN NOW <i class="fa-solid fa-arrow-right"></i></div> -->
-            <button class="button BTNSEC2">
-              <body>
-                <a href="/contact" class="th-btn th_btn"
-                  ><i class="fa-brands fa-twitch me-2"></i>Live Streaming</a
-                >
-              </body>
-            </button>
-          </div>
-          <img src="/view/css/images/hero-1-2.png" alt="" />
+        <div class="box2">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Tournaments</a>
+          <a href="#">Pages</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="box3">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+    
+    <div class="sectionOne">
+      <div class="innerParent">
+        <h1># World Class ESports & Gaming Site</h1>
+        <h2>SHAPING THE FUTURE OF <br /><span>ESPORTS</span></h2>
+        <div class="buttons">
+          <a href="/contact" class="th-btn th_btn"></i>EXPLORE MORE <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="/contact" class="th-btn th_btn browseGames"></i>BROWSE GAMES <i class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
-  </body>
-  <script type="module" src="/view/js/script.js"></script>
+    <!-- secondSection -->
+    <div class="secondSection">
+      <div class="innerParentSecTwo">
+        <img src="/view/css/images/hero-1-1.png" alt="" />
+        <div>
+          <h1>Join The Big Tournaments</h1>
+          <p>
+            Beyond esports Tournaments, include a broader calendar Of Gaming
+            <br />
+            events, conferences, and conventions. and connect with each other.
+          </p>
+          <button class="button BTNSEC2">
+            <a href="/contact" class="th-btn th_btn" style="color: white; font-weight: 700;">JOIN NOW <i class="fa-solid fa-arrow-right"></i></a>
+          </button>
+        </div>
+        <img src="/view/css/images/hero-1-2.png" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <script src="/view/js/script.js"></script>
+</body>
+
 </html>
