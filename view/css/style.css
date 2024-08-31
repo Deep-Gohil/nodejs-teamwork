@@ -314,9 +314,170 @@ nav{
 }
 
 
+/* game section */
 
 
 
+/* Game-Battle-Section */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#game {
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+
+#top {
+  display: flex !important;
+  -webkit-box-pack: justify !important;
+  justify-content: space-between !important;
+}
+
+#left {
+  margin-top: 02%;
+  margin-left: 02%;
+}
+
+#left span {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 24px;
+  margin-top: -0.2em;
+  font-weight: 600;
+  font-family: 'Rajdhani', sans-serif;
+  text-transform: capitalize;
+  line-height: 24px;
+  letter-spacing: 02px;
+  color: #45f882;
+}
+
+#left h1 {
+  margin-top: -0.2em;
+  color: white;
+  letter-spacing: 02px;
+  text-transform: capitalize;
+
+}
+
+#right {
+  margin-right: 02%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#box {
+  width: 75% !important;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #6240CF;
+  gap: 50px !important;
+  padding: 0 30px 0 45px;
+  clip-path: polygon(30px 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+#box a {
+  text-decoration: none;
+  background: transparent;
+  border: 0px;
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  padding: 15px 0px;
+  position: relative;
+  letter-spacing: 01px;
+}
+
+#s1 {
+  margin: 05% 02% 05% 02% !important;
+  padding: 03%;
+  border: 01px solid white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  --bs-gutter-x: 1.5rem;
+  flex-wrap: wrap;
+}
+
+#li {
+  width: 50%;
+}
+
+#r1 {
+  width: 50%;
+}
+
+#t1 #b1 {
+  margin: 03%;
+  text-align: center;
+  border: 0px;
+  border-radius: 10px;
+  width: 25% !important;
+  height: 35px !important;
+  background-color: #45f882;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#t1 #b2 {
+  text-align: center;
+  border: 01px solid white;
+  border-radius: 10px;
+  width: 15% !important;
+  height: 35px !important;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#r1 h1 {
+  color: white;
+  font-weight: 600;
+  margin-left: 03%;
+}
+
+#r1 h3 {
+  color: white;
+  font-weight: 600;
+  margin-top: 02%;
+  word-spacing: 02px;
+  margin-left: 03%;
+}
+
+#icon {
+  margin-left: 03%;
+  margin-top: 03%;
+  display: flex;
+}
+
+#first{
+  display: flex;
+  color: white;
+  font-size: 23px;
+  margin-right: 05%;
+}
+
+#first #i1 {
+  color: red;
+  margin-right: 07% !important;
+}
+
+#first #i2 {
+  color: #45f882;
+  margin-right: 07% !important;
+}
 
 
 
