@@ -6,6 +6,9 @@
   margin: 0px;
   padding: 0px;
 }
+html{
+  scroll-behavior: smooth;
+}
 .m-left-10 {
   margin-left: 50px;
 }
@@ -29,6 +32,7 @@ body{
   cursor: url("/view/css/images/cursor.svg"), auto;
 }
 /* navbar */
+
 .beforeNav{
   display: flex;
   justify-content: center;
@@ -504,9 +508,66 @@ nav{
   margin-right: 07% !important;
 }
 
+/* third section  */
 
+.thirdSection{
+  height: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 
-
+}
+.thirdSecContainer{
+  height: 100%;
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+}
+.imageThirdSec{
+  width: 100%;
+}
+.contentThirdSec{
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.innerSecThree{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  gap: 20px;
+}
+.secthreeInnerContent{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.secthreeInnerContent p{
+  color: #45f882;
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+.secthreeInnerContent h1{
+  color: white;
+  font-size: 2.5vw;
+  font-weight: 800;
+}
+.contentSecThree h2{
+  color: white;
+  font-size: 2vw;
+  font-weight: 700;
+  margin-top: -10px;
+}
+.contentSecThree h3{
+  margin-top: 5px;
+  font-size: 1.3vw;
+  color: #b4b6b5;
+}
+/* third section complited  */
 
 
 
