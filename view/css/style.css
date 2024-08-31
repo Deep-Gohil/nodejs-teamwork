@@ -25,7 +25,7 @@
   padding-top: 5px;
 }
 body{
-  background-color: #969EB2;
+  background-color: black;
   cursor: url("/view/css/images/cursor.svg"), auto;
 }
 /* navbar */
@@ -33,10 +33,35 @@ body{
   display: flex;
   justify-content: center;
   height: 6vh;
+  background-color: #151f19;
 }
 
 .innerNavContainer{
   height: 100%;
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(197, 196, 196);
+}
+.innerNavContainer p{
+  word-spacing: 3px;
+}
+.innerNavContainer p span{
+  color: #45f882;
+}
+.links div{
+  color: rgb(197, 196, 196);
+  word-spacing: 15px;
+  display: flex;
+}
+.links p{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.links p:hover{
+  color: #45f882;
+  transition: 0.6s
 }
 nav{
   height: 13vh;
