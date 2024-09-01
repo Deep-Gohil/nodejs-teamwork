@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="/view/css/fonts.css" />
   <link rel="stylesheet" href="/view/css/btn.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <style>
     .browseGames {
       background-color: #FFBE18;
@@ -21,6 +22,8 @@
 </head>
 
 <body>
+  
+
   <div class="loader-parent">
     <span class="loader"></span>
   </div>
@@ -28,13 +31,12 @@
     <div id="navbar"></div>
 
     <div class="sectionOne">
-      <div class="innerParent">
+      <div class="innerParent" data-aos="fade-down" data-aos-duration="1000">
         <h1># World Class ESports & Gaming Site</h1>
         <h2>SHAPING THE FUTURE OF <br /><span>ESPORTS</span></h2>
         <div class="buttons">
-          <a href="/contact" class="th-btn th_btn"></i>EXPLORE MORE <i class="fa-solid fa-arrow-right"></i></a>
-          <a href="/contact" class="th-btn th_btn browseGames"></i>BROWSE GAMES <i
-              class="fa-solid fa-arrow-right"></i></a>
+          <a href="/contact" class="th-btn th_btn">EXPLORE MORE <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="/contact" class="th-btn th_btn browseGames">BROWSE GAMES <i class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
@@ -44,7 +46,7 @@
         <div class="innerParentSecTwo">
           <img src="/view/css/images/hero-1-1.png" alt="" />
           <div>
-            <h1>Join The Big Tournaments</h1>
+            <h1 data-aos="fade-down" data-aos-duration="2000">Join The Big Tournaments</h1>
             <p>
               Beyond esports Tournaments, include a broader calendar Of Gaming
               <br />
@@ -52,14 +54,14 @@
             </p>
             <button class="button BTNSEC2">
               <a href="/contact" class="th-btn th_btn" style="font-weight: 700;">JOIN NOW <i
-                  class="fa-solid fa-arrow-right"></i></a>
+                  class="fa-solid fa-arrow-right" data-aos="fade-right" data-aos-duration="600"></i></a>
             </button>
           </div>
           <img src="/view/css/images/hero-1-2.png" alt="" />
         </div>
       </div>
     </div>
- <!-- second section complited  -->
+    <!-- second section complited  -->
     <!-- section three  -->
     <div class="thirdSection">
       <div class="thirdSecContainer">
@@ -69,7 +71,7 @@
         <div class="contentThirdSec">
           <div class="innerSecThree">
             <div class="secThreeImage">
-              <img src="/view/css/images/about1-2.png" alt="">
+              <img src="/view/css/images/about1-2.png" alt="" data-aos="zoom-in" data-aos-duration="1000">
             </div>
             <div class="secthreeInnerContent">
               <p># About Our gaming Site</p>
@@ -78,7 +80,7 @@
           </div>
           <div class="innerSecThree">
             <div class="logo">
-              <img src="/view/css/images/about_feature_1.svg" alt="">
+              <img src="/view/css/images/about_feature_1.svg" alt="" data-aos="zoom-in" data-aos-duration="1000">
             </div>
             <div class="contentSecThree">
               <h2>Over <span style="color: #45f882;">1K+ </span>Affiliate game programs</h2>
@@ -87,7 +89,7 @@
           </div>
           <div class="innerSecThree">
             <div class="logo">
-              <img src="/view/css/images/about_feature_2.svg" alt="">
+              <img src="/view/css/images/about_feature_2.svg" alt="" data-aos="zoom-in" data-aos-duration="1000">
             </div>
             <div class="contentSecThree">
               <h2>Great Tournaments</h2>
@@ -97,7 +99,7 @@
           </div>
           <div class="innerSecThree">
             <div class="logo">
-              <img src="/view/css/images/about_feature_3.svg" alt="">
+              <img src="/view/css/images/about_feature_3.svg" alt="" data-aos="zoom-in" data-aos-duration="1000">
             </div>
             <div class="contentSecThree">
               <h2>Get Online Supports</h2>
@@ -128,7 +130,7 @@
           </div>
         </div>
       </div>
-      <div id="s1">
+      <div id="s1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <div id="l1">
           <img src="https://wordpress.themeholy.com/bame/wp-content/uploads/2024/01/1-1-3.png" alt="">
           <img src="https://wordpress.themeholy.com/bame/wp-content/uploads/2024/01/game-vs1.svg" alt="">
@@ -154,7 +156,7 @@
           </div>
         </div>
       </div>
-      <div id="s1">
+      <div id="s1"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <div id="l1">
           <img src="https://wordpress.themeholy.com/bame/wp-content/uploads/2024/01/1-3-3.png" alt="">
           <img src="https://wordpress.themeholy.com/bame/wp-content/uploads/2024/01/game-vs1.svg" alt="">
@@ -180,7 +182,7 @@
           </div>
         </div>
       </div>
-      <div id="s1">
+      <div id="s1"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <div id="l1">
           <img src="https://wordpress.themeholy.com/bame/wp-content/uploads/2024/01/1-5-2.png" alt="">
           <img src="https://wordpress.themeholy.com/bame/wp-content/uploads/2024/01/game-vs1.svg" alt="">
@@ -212,8 +214,12 @@
 
 
 
-
+  <div class="circle"></div>
   <script type="module" src="/view/js/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
