@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="/view/css/style.css">
+    <link rel="stylesheet" href="/view/css/contact.css">
+    <link rel="stylesheet" href="/view/css/btn.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
-    
+    <div id="navbar"></div>
+    <div class="mainParent">
+        <div class="contactForm">
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <input type="number" name="Number" placeholder="Enter Number" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <a href="/contact" class="th-btn th_btn" style="font-size: 1.5vw;">Send Message<i class="fa-solid fa-arrow-right"></i></a>
+          
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="contactInfo"></div>
+    </div>
 </body>
-<script src="/view/js/contact.js"></script>
+<script type="module" src="/view/js/contact.js"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzfs7RIuhR7IqHl9-lvRuAKZ1vqWJkxxUSJkRz2T_K3Ls6GsTDxM42GvuxUOXDYoD4GXw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function () {
+                    msg.innerHTML = "";
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
 </html>

@@ -542,7 +542,7 @@ nav{
   width: 100%;
 }
 .contentThirdSec{
-  width: 90%;
+  width: 95%;
   display: flex;
   justify-content: start;
   flex-direction: column;
@@ -613,3 +613,38 @@ nav{
 }
 
 /* Releases The Latest Game complited */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer  */
+.copyrightMain{
+  height: 50px;
+  background-color: #343a40;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}
+.innerWithClipPath{
+  height: 70px;
+  background-color: #343a40;
+  border: none;
+  width: 500px;
+  margin: auto;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+/* Footer Complited  */

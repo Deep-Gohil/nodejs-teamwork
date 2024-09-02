@@ -19,7 +19,7 @@ const navbar = () => {
           <a href="#">Tournaments</a>
           <a href="#">Pages</a>
           <a href="#">Blog</a>
-          <a href="#">Contact</a>
+          <a href="/view/pages/contact.html">Contact</a>
         </div>
         <div class="box3">
           <i class="fa-solid fa-magnifying-glass"></i>
