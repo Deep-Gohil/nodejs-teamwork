@@ -17,8 +17,8 @@ const circle = document.querySelector('.circle');
 
 section.addEventListener('mousemove', (e) => {
     const rect = section.getBoundingClientRect();
-    const x = e.clientX - rect.left; // X position within the section
-    const y = e.clientY - rect.top;  // Y position within the section
+    const x = e.clientX - rect.left; 
+    const y = e.clientY - rect.top; 
     setTimeout(() => {
     circle.style.left = `${x}px`;
     circle.style.top = `${y}px`;

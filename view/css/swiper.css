@@ -1,0 +1,48 @@
+swiper-container {
+    margin-top: 3%;
+    width: 100%;
+    height: 350px;
+    color: white;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #45f882;
+    border-radius: 5%;
+  }
+
+  swiper-slide img {
+   margin-top: 2%;
+   object-fit: cover;
+  }
+  swiper-slide h1{
+    color: white;
+    font-size: 2vw;
+    transition: 0.7s;
+  }
+  /* swiper-slide img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  } */
+  swiper-slide p{
+    color: white;
+  }
+  swiper-slide::after{
+    content: "";
+    position: absolute;
+    left: 2%;
+    right: 0;
+    bottom: 0;
+    border-radius: 5%;
+    border:2px solid  #FFBE18;
+    z-index: -1;
+    width: 96%;
+  }
+  swiper-slide h1:hover{
+    color: #45f882;
+  }
