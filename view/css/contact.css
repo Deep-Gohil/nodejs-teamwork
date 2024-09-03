@@ -5,9 +5,10 @@ body{
     width: 100%;
     display: flex;
     margin-top: 10%;
+    justify-content: space-between;
 }
 .contactForm{
-    flex-basis: 50%;
+    flex-basis: 40%;
 }
 .contactInfo{
     flex-basis: 50%;

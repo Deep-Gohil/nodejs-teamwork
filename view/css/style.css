@@ -28,9 +28,10 @@ html{
   padding-top: 5px;
 }
 body{
-  background-color: black;
+  background-color: #0B0E13;
   cursor: url("/view/css/images/cursor.svg"), auto;
   height: 100vh;
+  font-family: 'Rajdhani',"popins",sans-serif;
 }
 /* Circle that follows the cursor */
 .circle {
@@ -614,8 +615,179 @@ nav{
 
 /* Releases The Latest Game complited */
 
+/* World Best Facilities Game  */
+.title-area {
+  height: 100px;
+  /* background-color: #6240CF; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15%;
+  margin-bottom: 10%;
+}
+.parentWorldBestFacilitiesGame{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-top: 10%;
+}
+.e-con.e-con>.e-con-inner>.elementor-widget, .elementor.elementor .e-con>.elementor-widget {
+  max-width: 100%;
+}
+.elementor-1911 .elementor-element.elementor-element-4b43653e>.elementor-widget-container {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 12px 0px 12px;
+}
 
+.elementor-1911 .elementor-element.elementor-element-4b43653e.elementor-element {
+  --align-self: stretch;
+}
+/* General Styles */
+.feature-sec-wrap1 {
+  width: 1225px;
+  border-radius: 70px 0 0 70px;
+}
 
+.background-image {
+  background-image: url(https://wordpress.themeholy.com/bame/wp-content/uploads/2024/01/feature-sec1-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.feature-card {
+  text-align: center;
+  border-radius: 40px;
+  background: #0F1C23;
+  padding: 35px;
+  max-width: 575px;
+}
+
+.feature-card-border {
+  margin-bottom: 150px;
+  padding: 50px;
+  border-radius: 40px;
+  background: #0B0E13;
+  display: inline-block;
+  position: relative;
+}
+
+.feature-card-border:before,
+.feature-card-border:after {
+  content: '';
+  position: absolute;
+  left: -78px;
+  top: 0;
+  height: 80px;
+  width: 80px;
+  background: #0B0E13;
+  clip-path: path("M0 0H79.9695V76.3123C80.0103 77.5714 80.0101 78.8022 79.9695 80V76.3123C79.0054 46.5602 55.1443 0.959397 0 0Z");
+}
+
+.feature-card-border:before {
+  left: auto;
+  right: -1px;
+  top: auto;
+  bottom: -79px;
+}
+
+.feature-card-wrap {
+  display: flex;
+}
+
+.feature-card-wrap:nth-of-type(odd) {
+  justify-content: end;
+}
+
+.feature-card-wrap:nth-of-type(odd) .feature-card-border {
+  padding-right: 0;
+  border-radius: 70px 0px 0px 70px;
+}
+
+.feature-card-wrap:nth-of-type(odd) .feature-card-border:after {
+  right: -1px;
+  left: auto;
+  top: -78px;
+  transform: rotate(90deg);
+}
+
+.feature-card-wrap:nth-of-type(even) .feature-card-border {
+  padding-left: 0;
+  border-radius: 0 70px 70px 0;
+}
+
+.feature-card-wrap:nth-of-type(even) .feature-card-border:after {
+  transform: rotate(180deg);
+  top: -79px;
+  left: 0;
+}
+
+.feature-card-wrap:nth-of-type(even) .feature-card-border:before {
+  left: 0;
+  right: auto;
+  transform: rotate(-90deg);
+  bottom: -80px;
+}
+
+.feature-card-wrap:first-child .feature-card-border {
+  padding-top: 0;
+  border-radius: 0 0 0px 70px;
+}
+
+.feature-card-wrap:first-child .feature-card-border:after {
+  right: auto;
+  left: -79px;
+  top: -1px;
+  transform: none;
+}
+
+.feature-card-wrap:last-child .feature-card-border {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-radius: 70px 0px 0 0;
+}
+
+.feature-card-wrap:last-child .feature-card-border:before {
+  left: -80px;
+  right: auto;
+  top: auto;
+  bottom: 0;
+  transform: rotate(90deg);
+}
+
+.feature-card .feature-card-icon {
+  margin-bottom: 30px;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+
+.feature-card .feature-card-icon .feature-card-icon-mask {
+  position: absolute;
+  inset: 0;
+  mix-blend-mode: color;
+  /* background: #45F882; */
+}
+
+.feature-card .feature-card-title {
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: -0.3em;
+  margin-bottom: 15px;
+}
+
+.feature-card .feature-card-text {
+  margin-bottom: -0.4em;
+}
+
+.feature-card:hover .feature-card-icon {
+  transform: rotateY(180deg);
+}
+
+/* World Best Facilities Game complited  */
 
 
 
