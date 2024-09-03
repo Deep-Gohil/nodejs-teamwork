@@ -1,5 +1,10 @@
 body{
+    font-family: "Rajdhani", sans-serif;
 }
+* {
+    margin: 0px;
+    padding: 0px;
+  }
 .mainParent{
     height: 600px;
     width: 100%;
@@ -14,7 +19,18 @@ body{
     flex-basis: 50%;
     /* background-color: aquamarine; */
 }
-
+.contactForm p{
+    color: #45f882;
+    font-size: 2vw;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.contactForm h1{
+    color: white;
+    margin-left: 10px;
+    font-size: 2.5vw;
+    font-weight: 800;
+}
 
 .contact-right form input{
     width: 20vw;
@@ -42,4 +58,53 @@ form .btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
+}
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contactInfo p{
+    font-size: 2vw;
+    color: #45f882;
+    font-weight: 600;
+}
+.contactInfo h1{
+    color: white;
+    font-size: 2.4vw;
+    font-weight: 800;
+}
+.contactInfo > div{
+    height: 150px;
+    border: 1px solid white;
+    width: 90%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contentContact{
+    height: 100%;
+    flex-basis: 70%;
+    /* display: flex;
+    justify-content: start;
+    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #45f882;
+    
+}
+.contentContact h1{
+    color: white;
+    font-size: 1.5vw;
+}
+.contentContact p{
+    color: white;
+    font-size: 1.2vw;
+}
+.contentContact span{
+    height: 70%;
+    width: 100%;
 }

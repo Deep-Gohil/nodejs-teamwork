@@ -5,10 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="/view/css/style.css">
-    <link rel="stylesheet" href="/view/css/contact.css">
+    <link rel="stylesheet" href="/view/css/style.css" />
+    <link rel="stylesheet" href="/view/css/fonts.css" />
     <link rel="stylesheet" href="/view/css/btn.css">
+    <link rel="stylesheet" href="/view/css/swiper.css">
+    <link rel="stylesheet" href="/view/css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
@@ -16,19 +23,50 @@
     <div id="navbar"></div>
     <div class="mainParent">
         <div class="contactForm">
+            <p># Get In Touch</p>
+            <h1>Contact Us & Meet Our Team <span style="color: #45f882;">!</span></h1>
             <div class="contact-right">
                 <form name="submit-to-google-sheet">
                     <input type="text" name="Name" placeholder="Your name" required style="width: 15vw;">
                     <input type="email" name="Email" placeholder="Your Email" required style="width: 15vw;">
                     <input type="number" name="Number" placeholder="Enter Number" required style="width: 15vw;">
                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <a href="/contact" class="th-btn th_btn" style="font-size: 1.5vw;">Send Message<i class="fa-solid fa-arrow-right"></i></a>
-          
+                    <a href="/contact" class="th-btn th_btn" style="font-size: 1.5vw;">Send Message<i
+                            class="fa-solid fa-arrow-right"></i></a>
+
                 </form>
                 <span id="msg"></span>
             </div>
         </div>
-        <div class="contactInfo"></div>
+        <div class="contactInfo">
+            <span>
+                <p># Information</p>
+                <h1>Contact Information's <span style="color: #45f882;">!</span></h1>
+            </span>
+            <div class="addMain">
+                <div class="logo"><img
+                        src="https://wordpress.themeholy.com/bame/wp-content/uploads/2024/01/contact-map-icon1.svg"
+                        alt=""></div>
+                <div class="contentContact">
+                    <span>
+                        <h1>ADDRESS:</h1>
+                        <p>24, Radhakrishna society chaprabhatha road Amroli, Surat</p>
+                    </span>
+                </div>
+            </div>
+            <div class="personalMain">
+                <div class="logo"><img
+                        src="https://wordpress.themeholy.com/bame/wp-content/uploads/2024/01/contact-phone-icon1.svg"
+                        alt=""></div>
+                <div class="contentContact"></div>
+            </div>
+            <div class="emailMain">
+                <div class="logo"><img
+                        src="https://wordpress.themeholy.com/bame/wp-content/uploads/2024/01/contact-envelope-icon1.svg"
+                        alt=""></div>
+                <div class="contentContact"></div>
+            </div>
+        </div>
     </div>
 </body>
 <script type="module" src="/view/js/contact.js"></script>

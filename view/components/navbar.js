@@ -14,7 +14,7 @@ const navbar = () => {
           <img src="https://wordpress.themeholy.com/bame/wp-content/uploads/2023/12/logo.svg" alt="">
         </div>
         <div class="box2">
-          <a href="#">Home</a>
+          <a href="/view/index.html">Home</a>
           <a href="#">About</a>
           <a href="#">Tournaments</a>
           <a href="#">Pages</a>
