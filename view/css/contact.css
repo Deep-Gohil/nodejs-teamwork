@@ -86,14 +86,11 @@ form .btn2{
 .contentContact{
     height: 100%;
     flex-basis: 70%;
-    /* display: flex;
-    justify-content: start;
-    flex-direction: column; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border: 2px solid #45f882;
+    /* align-items: center; */
+    gap: 5%;
     
 }
 .contentContact h1{
@@ -107,4 +104,9 @@ form .btn2{
 .contentContact span{
     height: 70%;
     width: 100%;
+}
+.contentContact div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

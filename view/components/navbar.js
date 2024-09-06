@@ -15,7 +15,7 @@ const navbar = () => {
         </div>
         <div class="box2">
           <a href="/view/index.html">Home</a>
-          <a href="#">About</a>
+          <a href="/view/pages/about.html">About</a>
           <a href="#">Tournaments</a>
           <a href="#">Pages</a>
           <a href="#">Blog</a>

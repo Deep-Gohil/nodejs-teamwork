@@ -1,0 +1,121 @@
+* {
+    font-family: "Rajdhani", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* aboutSectionOne  */
+.aboutSectionOne {
+    margin-top: 10%;
+    width: 100%;
+    height: 150vh;
+}
+
+.aboutSectionOneTitle {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutSectionOneTitleP {
+    color: #45f882;
+    font-size: 2vw;
+    font-weight: 600;
+    font-style: capitalize;
+}
+
+.aboutSectionOneTitleH1 {
+    color: white;
+    font-size: 3vw;
+}
+
+.aboutSectionOneinnerMain {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.innerMainOne {
+    flex-basis: 50%;
+}
+
+.innerMainOne img {
+    width: 100%;
+}
+
+.innerMainTwo {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerMainTwo>div {
+    height: 150px;
+    width: 80%;
+    border: 1px solid #45f882;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 1s;
+}
+
+.innerMainTwo>div:hover {
+    transform: scale(1.1);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.contentAboutInner {
+    width: 70%;
+}
+
+.contentAboutInner h1 {
+    font-size: 2.5vw;
+    color: white;
+    font-weight: 800;
+}
+
+.contentAboutInner p {
+    font-size: 1.3vw;
+    color: #7b7b7b;
+    font-weight: 600;
+}
+
+.logoAboutinner img {
+    width: 5vw;
+}
+
+/* aboutSectionOne Complited */
+
+/* counter Section  */
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.stat-item {
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.counter {
+    font-size: 4vw;
+    font-weight: bold;
+    color: white;
+}
+
+.stat-item p {
+    font-size: 1.5vw;
+    color: #45f882;
+}
+
+
+/* counter Section Complited  */
